@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Electro_omar-Boutique électronique au Maroc">
+    <title>Electro omar </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Barre supérieure -->
+    <div class="top-bar">
+        <span>🚚 Livraison partout au Maroc</span>
+        <span>✓ Produits de qualité</span>
+        <span>🎧 Service client</span>
+    </div>
+
+    <!-- En-tête -->
+    <header class="main-header">
+        <a href="#accueil" class="logo">
+            <span class="logo-icon">E</span>
+            <span>
+                ELECTRO_<strong>OMAR</strong>
+                <small>VOTRE BOUTIQUE ÉLECTRONIQUE</small>
+            </span>
+        </a>
+
+        <form class="search-box" id="searchForm">
+            <input type="search" id="searchInput"
+                   placeholder="Rechercher un produit...">
+            <button type="submit" aria-label="Rechercher">⌕</button>
+        </form>
+
+        <a class="contact" href="https://wa.me/212634587291"
+           target="_blank" rel="noopener">
+            <span>🟢 Contactez-nous</span>
+            <strong>0634587291</strong>
+        </a>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+        <a class="active" href="#accueil">⌂ Accueil</a>
+        <a href="#produits">▣ Téléphones</a>
+        <a href="#produits">▰ Ordinateurs</a>
+        <a href="#produits">♫ Accessoires</a>
+        <a href="#produits">⚙ Autres produits</a>
+        <a class="nav-products" href="#produits">◇ Nos produits</a>
+    </nav>
+
+    <!-- Bannière principale -->
+    <main>
+        <section class="hero" id="accueil">
+            <div class="hero-content">
+                <p class="eyebrow">TECHNOLOGIE & INNOVATION</p>
+                <h1>Bienvenue chez<br>
+                    <span>Electro_omar</span>
+                </h1>
+                <p class="hero-description">
+                    Découvrez nos smartphones, ordinateurs
+                    et accessoires électroniques.
+                </p>
+                <a class="hero-button" href="#produits">
+                    Découvrir nos produits →
+                </a>
+            </div>
+
+            <div class="hero-visual" aria-hidden="true">
+                <div class="device laptop">
+                    <div class="laptop-screen">E</div>
+                    <div class="laptop-base"></div>
+                </div>
+                <div class="device phone">📱</div>
+                <div class="device headphones">🎧</div>
+                <div class="device earbuds">🎵</div>
+            </div>
+        </section>
+
+        <!-- Produits réels -->
+        <section class="products-section" id="produits">
+            <div class="section-heading">
+                <p class="eyebrow">NOTRE SÉLECTION</p>
+                <h2>Nos produits</h2>
+                <p>Découvrez les produits disponibles chez Electro_omar.</p>
+            </div>
+
+            <div class="products-grid">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/Produit-01.jpg"
+                             alt="Téléphone Itel A70"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="image-placeholder">📱</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">SMARTPHONE</span>
+                        <h3>Itel A70</h3>
+                        <p>Stockage annoncé : 256 GB</p>
+                        <p>Mémoire RAM annoncée : 12 GB</p>
+                        <p class="price">Prix: 750 DH </p>
+                        <a class="order-button"
+                           href="https://wa.me/212634587291?text=Bonjour%20Electro_omar%2C%20je%20souhaite%20des%20informations%20sur%20le%20Itel%20A70."
+                           target="_blank" rel="noopener">
+                            Demander des informations
+                        </a>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <img src="images/Produit-02.jpg"
+                             alt="Ordinateur Acer Aspire E15"
+                             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+                        <div class="image-placeholder">💻</div>
+                    </div>
+                    <div class="product-info">
+                        <span class="product-category">ORDINATEUR PORTABLE</span>
+                        <h3>Acer Aspire E15</h3>
+                        <p>Ordinateur portable Acer.</p>
+                        <p>Contactez-nous pour les caractéristiques.</p>
+                        <p class="price">Prix: 999 DH </p>
+                        <a class="order-button"
+                           href="https://wa.me/212634587291?text=Bonjour%20Electro_omar%2C%20je%20souhaite%20des%20informations%20sur%20le%20Acer%20Aspire%20E15."
+                           target="_blank" rel="noopener">
+                            Demander des informations
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer" id="contact">
+        <a href="#accueil" class="footer-logo">ELECTRO_OMAR</a>
+        <p>Votre boutique électronique au Maroc.</p>
+        <a href="https://wa.me/212634587291" target="_blank"
+           rel="noopener">Contact WhatsApp</a>
+        <p class="copyright">
+            © <span id="year"></span> Electro_omar. Tous droits réservés.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
